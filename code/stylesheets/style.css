@@ -78,6 +78,7 @@ body {
   background-size: 139% auto;
   background-position: -175px 0;
   margin: 0 auto 0 auto;
+  text-align: center;
 }
 
 .logo {
@@ -124,4 +125,82 @@ a:active {
 .inputarea {
   text-align: center;
   padding: 20px auto 20px auto;
+  margin-left: 300px;
+  position: absolute；
+}
+
+input.search{
+  color: #ffffff;
+  width: 70;
+  height: 37px;
+  background-color: #297a4a;
+   border: none;
+}
+span.none-gap-span {
+  letter-spacing: -0.5em;
+  text-align: center;
+}
+
+.secondsection {
+  width: 900px;
+  height: 400px;
+  background-color: #f4f3f1;
+  margin: 0 auto 0 auto;
+}
+
+.ptitle {
+  font-family: Arial;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.shortunderline {
+  width: 20px;
+  margin-bottom: 40px;
+}
+div.number {
+  height: 30px;
+  margin: 0 150px 0 150px;
+  max-width: 900px;
+  position: relative;
+}
+.numberspan {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    border: 1px solid #dfdfdf;
+    color: #99a0b8;
+}
+.firstnumber {
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+}
+.secondnumber{
+  position: relative;
+  margin: 0 auto;
+}
+.thirdnumber {
+  top: 0;
+  right:0;
+}
+.shorthr {
+  top: 12px;
+  width: 42%;
+  border: none;
+  border-top: 1px solid #dfdfdf;
+  position: absolute;
+
+}
+.firsthr {
+  left: 5%;
+}
+.lasthr {
+  right: 5%;
 }
