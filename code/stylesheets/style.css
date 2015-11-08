@@ -371,3 +371,18 @@ div.number {
   font-size: 15px;
   font-weight: bold;
 }
+.footer {
+  width: 900px;
+  height: 60px;
+  background-color: #ffffff;
+  margin: 0 auto 0 auto;
+}
+.footer ul {
+  float: left;
+}
+.footer li {
+  float: left;
+}
+.footer a {
+  color: #aeaab2;
+}
