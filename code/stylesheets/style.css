@@ -212,7 +212,6 @@ div.number {
 .content {
   width: 800px;
   margin: 0 auto 0 auto;
-
 }
 .contentpart {
   vertical-align: top;
@@ -227,6 +226,7 @@ div.number {
   margin-top: 10px;
   margin-bottom: 10px;
   color: #6f757e;
+  font-family: Arial;
 }
 .text {
   font-size: 12px;
@@ -239,4 +239,36 @@ div.number {
     margin: 0px auto;
     padding: 0px;
     background-color: #dfdfdf;
+}
+.longcontent {
+  width: 800px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.longcontent ul {
+   text-align: left;
+   display: inline-block;
+   width: 40%;
+
+}
+.longcontent li {
+  float:left;
+  display: inline-block;
+  margin: 20px 0 20px 0;
+}
+
+.longcontent img {
+  float:left;
+}
+.longtext {
+  float:left;
+  margin: 0 10px 0 10px;
+}
+.longcontent p {
+  max-width: 250px;
+  font-size: 12px;
+  font-family: Arial;
+  color: #9b9b9b;
+
 }
