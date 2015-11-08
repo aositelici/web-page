@@ -153,10 +153,15 @@ span.none-gap-span {
   padding-top: 100px;
   padding-bottom: 10px;
   text-align: center;
+  font-size: 15px;
+  color: #6f757e;
 }
-.shortunderline {
-  width: 20px;
-  margin-bottom: 40px;
+.line {
+    width: 40px;
+    height: 3px;
+    margin: 10px auto 30px auto;
+    padding: 0px;
+    background-color: #dfdfdf;
 }
 div.number {
   height: 30px;
