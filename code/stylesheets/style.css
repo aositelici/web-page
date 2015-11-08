@@ -74,7 +74,7 @@ body {
 .headpicture {
   width: 900px;
   height: 544px;
-  -webkit-filter: brightness(0.8);
+  opacity: 0.8;
   background: url(../images/sunset-resized.jpg) no-repeat;
   background-size: 139% auto;
   background-position: -175px 0;
@@ -129,13 +129,18 @@ a:active {
   margin-left: 300px;
   position: absolute；
 }
-
+.inputtext {
+  width:200px;
+  height:34px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
 input.search{
   color: #ffffff;
-  width: 70;
-  height: 37px;
+  width: 60px;
+  height: 36px;
   background-color: #67ddab;
-   border: none;
+  border: none;
 }
 span.none-gap-span {
   letter-spacing: -0.5em;
@@ -328,14 +333,14 @@ div.number {
   text-align: center;
 }
 .buttonpart {
-    margin: 0 auto;
-    width: 400px;
-    height:50px;
-    text-align: center;
-    position: relative;
-    top:80px;
-    border: 2px solid #9195a1;
-    border-radius: 5px;
+  margin: 0 auto;
+  width: 400px;
+  height:50px;
+  text-align: center;
+  position: relative;
+  top:80px;
+  border: 2px solid #9195a1;
+  border-radius: 5px;
 
 }
 .buttonpart button {
