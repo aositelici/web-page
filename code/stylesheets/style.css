@@ -133,7 +133,7 @@ input.search{
   color: #ffffff;
   width: 70;
   height: 37px;
-  background-color: #297a4a;
+  background-color: #67ddab;
    border: none;
 }
 span.none-gap-span {
@@ -349,4 +349,25 @@ div.number {
   margin:0 20px 0 20px;
   -webkit-filter: grayscale(100%);
   opacity: 0.4;
+}
+
+.fifthsection {
+  width: 900px;
+  height: 200px;
+  overflow: hidden;
+  -webkit-filter: brightness(0.8);
+  background: url(../images/sunset-resized.jpg) no-repeat;
+  background-size: 139% auto;
+  background-position:-175px -380px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.endsearch {
+  padding-top: 60px;
+}
+.endsearch p {
+  display: inline;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
 }
