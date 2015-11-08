@@ -141,7 +141,7 @@ span.none-gap-span {
   text-align: center;
 }
 
-.section {
+.secondsection {
   width: 900px;
   height: 500px;
   background-color: #f4f3f1;
@@ -240,6 +240,13 @@ div.number {
     padding: 0px;
     background-color: #dfdfdf;
 }
+
+.thirdsection {
+  width: 900px;
+  height: 700px;
+  background-color: #f4f3f1;
+  margin: 0 auto 0 auto;
+}
 .longcontent {
   width: 800px;
   display: inline-block;
@@ -270,5 +277,5 @@ div.number {
   font-size: 12px;
   font-family: Arial;
   color: #9b9b9b;
-
+  line-height:1.5;
 }
