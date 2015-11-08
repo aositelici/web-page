@@ -143,7 +143,7 @@ span.none-gap-span {
 
 .secondsection {
   width: 900px;
-  height: 400px;
+  height: 500px;
   background-color: #f4f3f1;
   margin: 0 auto 0 auto;
 }
@@ -201,11 +201,35 @@ div.number {
   border: none;
   border-top: 1px solid #dfdfdf;
   position: absolute;
-
 }
 .firsthr {
   left: 5%;
 }
 .lasthr {
   right: 5%;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto 0 auto;
+
+}
+.contentpart {
+  vertical-align: top;
+  padding: 50px;
+  display: inline-block;
+  width:20%;
+  text-align: center;
+}
+.subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #6f757e;
+}
+.text {
+  font-size: 12px;
+  font-family: Arial;
+  color: #9b9b9b;
 }
